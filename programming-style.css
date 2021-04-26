@@ -1,0 +1,54 @@
+
+body{
+    font-family: "Walter Turncoat", cursive;
+    color: whitesmoke;
+    background-image: url("chalkboard-bg.jpg");
+    margin: 30px;
+    font-size: 14pt;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h1, h2{
+    font-family: 'Special Elite', cursive;
+}
+
+#buttons-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button{
+    background-color:red;
+    border-width: 0cm;
+    color:seashell;
+    /* font-weight: bold; */
+    font-family: "Walter Turncoat";
+    padding: 10px;
+    border-radius: .5em;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.exerciseButtons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.output{
+    min-height: 100px;
+    border: 25px solid rgba(255,255,255,.8);
+    border-image: url("borderchalk.png") 20;
+    padding: 20px;
+}
+
+.active{
+    background-color:slategrey;
+    border-width: thin;
+}
+
+.hidden{
+    display: none;
+}

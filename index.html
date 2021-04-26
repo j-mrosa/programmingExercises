@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Exercises in Tabs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap&family=Walter+Turncoat" rel="stylesheet"> 
+    <link rel="stylesheet" href="programming-style.css">
+    <script src="programming-script.js"></script>
+</head>
+<body>
+    <h1>JavaScript Programming Exercises</h1>
+
+    <div id="buttons-container">
+        <button id="btn1" class="tabButton">Exercise 1</button>
+        <button id="btn2" class="tabButton">Exercise 2</button>
+        <button id="btn3" class="tabButton">Exercise 3</button>
+        <button id="btn4" class="tabButton">Exercise 4</button>
+        <button id="btn5" class="tabButton">Exercise 5</button>
+        <button id="btn6" class="tabButton">Exercise 6</button>
+        <button id="btn7" class="tabButton">Exercise 7</button>
+        <button id="btn8" class="tabButton">Exercise 8</button>
+        <button id="btn9" class="tabButton">Exercise 9</button>
+        <button id="btn10" class="tabButton">Exercise 10</button>
+    </div>
+        
+    <div id="ex1" class="contentArea">
+        <h2>Exercise 1</h2>
+
+        <p>Choose two numbers.</p>
+        <p>Click calculate to display all the integers from min to max (inclusive of both). </p>
+
+        <label>Min: </label>
+        <input type="number" id="minNumber" value="0" class="allInputs"><br><br>
+        <label>Max: </label>
+        <input type="number" id="maxNumber" value="0" class="allInputs"><br><br>
+
+        <button id="btnEx1" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <ul id="outputList1"></ul>
+        </div>
+    </div>
+
+    <div id="ex2" class="contentArea">
+        <h2>Exercise 2</h2>
+
+        <p>Type numbers separeted by commas.</p> 
+        <p>Click calculate to display the number of values entered, 
+            the total, the average, the smallest value, and the largest value.</p>
+
+        <label>Numbers: </label>
+        <input type="text" id="stringEx2" class="allInputs"><br><br>
+
+        <button id="btnEx2" class="exerciseButtons">Calculate</button>
+        
+        <h3>Results: </h3>
+        <div class="output">            
+            <ul id="outputList2"></ul>
+        </div>
+    </div>
+
+    <div id="ex3" class="contentArea">
+        <h2>Exercise 3</h2>
+
+        <p>Type a set of numbers separated by commas and a key number to search for</p> 
+        <p>Click calculate to display the number of times the keys appears in the set.</p>
+
+        <label>Numbers: </label>
+        <input type="text" id="stringEx3" class="allInputs"><br><br>
+        <label>Key: </label>
+        <input type="number" id="keyEx3" class="allInputs"><br><br>
+
+        <button id="btnEx3" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">
+            <p id="outputEx3"></p>
+        </div>
+    </div>
+
+    <div id="ex4" class="contentArea">
+        <h2>Exercise 4</h2>
+
+        <p>Type a number of stars</p> 
+        <p>Click calculate to display the number of stars.</p>
+
+        <label>Number of Stars: </label>
+        <input type="number" id="numEx4" class="allInputs"><br><br>
+
+        <button id="btnEx4" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <p id="outputEx4"></p>
+        </div>
+    </div>
+
+    <div id="ex5" class="contentArea">
+        <h2>Exercise 5</h2>
+
+        <p>Type a number of stars and a maximum number of stars per line</p> 
+        <p>Click calculate to display the number of stars 
+            with at most the maximum number per line.</p>
+
+        <label>Number of Stars: </label>
+        <input type="number" id="numStarsEx5" class="allInputs"><br><br>
+        <label>Maximum of Stars per Line: </label>
+        <input type="number" id="maxStarsEx5" class="allInputs"><br><br>
+
+        <button id="btnEx5" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <p id="outputEx5"></p>
+         </div>
+    </div>
+
+    <div id="ex6" class="contentArea">
+        <h2>Exercise 6</h2>
+
+        <p>Type a text.</p> 
+        <p>Click calculate to display the number of vowels entered,  
+            and a new text with "*" in place of each vowel.</p>
+
+        <label>Text: </label>
+        <input type="text" id="inputEx6" class="allInputs"><br><br>
+        
+        <button id="btnEx6" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <ul id="outputEx6"></ul>
+         </div>
+    </div>
+
+    <div id="ex7" class="contentArea">
+        <h2>Exercise 7</h2>
+
+        <p>Choose how many items do you want to ship.</p> 
+        <p>Click calculate to display the base cost, tax and total cost.</p>
+
+        <label>Number of items: </label>
+        <input type="number" id="inputEx7" class="allInputs"><br><br>
+        
+        <button id="btnEx7" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <p id="outputEx7"></p>
+         </div>
+    </div>
+
+    <div id="ex8" class="contentArea">
+        <h2>Exercise 8</h2>
+
+        <p>Choose how many bars of Snickers do you want to buy.</p> 
+        <p>Click calculate to display the number of boxes, number of single bars, 
+            cost to buy the boxes, cost to buy single bars, and total cost.</p>
+
+        <label>Number of bars: </label>
+        <input type="number" id="inputEx8" class="allInputs"><br><br>
+        
+        <button id="btnEx8" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <p id="outputEx8"></p>
+         </div>
+    </div>
+
+    <div id="ex9" class="contentArea">
+        <h2>Exercise 9</h2>
+
+        <p>Enter a binary number.</p> 
+        <p>Click calculate to convert to decimal.</p>
+
+        <label>Number to convert: </label>
+        <input type="text" id="inputEx9" class="allInputs"><br><br>
+        
+        <button id="btnEx9" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <p id="outputEx9"></p>
+         </div>
+    </div>
+
+    <div id="ex10" class="contentArea">
+        <h2>Exercise 10</h2>
+
+        <p>Enter three angles of a triangle.</p> 
+        <p>Click calculate to obtain the type of triangle.</p>
+
+        <label>Angle 1: </label>
+        <input type="Number" id="inputAngle1" class="allInputs"><br><br>
+        <label>Angle 2: </label>
+        <input type="Number" id="inputAngle2" class="allInputs"><br><br>
+        <label>Angle 3: </label>
+        <input type="Number" id="inputAngle3" class="allInputs"><br><br>
+        
+        <button id="btnEx10" class="exerciseButtons">Calculate</button>
+
+        <h3>Results: </h3>
+        <div class="output">            
+            <p id="outputEx10"></p>
+         </div>
+    </div>    
+</body>
+</html>
